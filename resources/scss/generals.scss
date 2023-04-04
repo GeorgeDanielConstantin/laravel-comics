@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    min-height: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-navbar {
+    color: white;
+}
+
+.nav-link {
+    color: black;
+    &:hover {
+        border-bottom: 0.5rem solid blue;
+        color: blue;
+    }
+}
+
+footer {
+    background-image: url(../../public/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
