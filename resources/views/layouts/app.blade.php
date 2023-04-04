@@ -12,6 +12,7 @@
 
     @include('partials._header')
 
+    @include('partials._jumbotron')
 
     @include('partials._footer')
 
